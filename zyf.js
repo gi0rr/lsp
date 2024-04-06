@@ -19,9 +19,9 @@
 # > 首页广告
 ^https?:\/\/hzyf\d{3}\.com\/eps\/system/appStoreHome url reject-200
 # > 去广告/个人中心
-^https?:\/\/hzyf\d{3}\.com\/eps\/(system\/info|user\/info|movie\/block) url script-response-body https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/zyf.js
+^https?:\/\/hzyf\d{3}\.com\/eps\/(system\/info|user\/info|movie\/block) url script-response-body https://raw.githubusercontent.com/gi0rr/lsp/main/zyf.js
 # > 视频解锁
-^https?:\/\/hzyf\d{3}\.com\/eps\/movie\/detail url script-analyze-echo-response https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/zyf.js
+^https?:\/\/hzyf\d{3}\.com\/eps\/movie\/detail url script-analyze-echo-response https://raw.githubusercontent.com/gi0rr/lsp/main/zyf.js
 hostname = hzyf*.com
 ******************************************/
 const $ = new Env('知阴坊')
